@@ -9513,6 +9513,23 @@
 										},
 										{
 											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFy5lC3PIB6UbM=",
+											"_parent": {
+												"$ref": "AAAAAAFy5dsTccOi0HE="
+											},
+											"model": {
+												"$ref": "AAAAAAFy5lC26oBHBZ4="
+											},
+											"font": "Arial;13;0",
+											"left": 581,
+											"top": 427,
+											"width": 183.8916015625,
+											"height": 13,
+											"text": "+company_email: email",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
 											"_id": "AAAAAAFy5dvVbMc5UwU=",
 											"_parent": {
 												"$ref": "AAAAAAFy5dsTccOi0HE="
@@ -9522,7 +9539,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 581,
-											"top": 427,
+											"top": 442,
 											"width": 183.8916015625,
 											"height": 13,
 											"text": "+company_website: VARCHAR",
@@ -9539,7 +9556,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 581,
-											"top": 442,
+											"top": 457,
 											"width": 183.8916015625,
 											"height": 13,
 											"text": "+company_details: VARCHAR",
@@ -9550,7 +9567,7 @@
 									"left": 576,
 									"top": 377,
 									"width": 193.8916015625,
-									"height": 83
+									"height": 98
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -9563,7 +9580,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 576,
-									"top": 460,
+									"top": 475,
 									"width": 193.8916015625,
 									"height": 10
 								},
@@ -9601,7 +9618,7 @@
 							"left": 576,
 							"top": 352,
 							"width": 193.8916015625,
-							"height": 118,
+							"height": 133,
 							"nameCompartment": {
 								"$ref": "AAAAAAFy5dsTcMOdQeo="
 							},
@@ -12094,6 +12111,15 @@
 							"type": {
 								"$ref": "AAAAAAFy23PKEFg8mWk="
 							}
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFy5lC26oBHBZ4=",
+							"_parent": {
+								"$ref": "AAAAAAFy5dsTbsOaPyY="
+							},
+							"name": "company_email",
+							"type": "email"
 						},
 						{
 							"_type": "UMLAttribute",
